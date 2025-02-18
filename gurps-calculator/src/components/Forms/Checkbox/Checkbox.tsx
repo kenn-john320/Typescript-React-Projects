@@ -6,13 +6,18 @@ value: boolean
 icon?: boolean
 }
 
+const Checkbox: React.FC<IProps> = ({
+    label
 
-const Checkbox: React.FC<IProps> = (
-
+}
 ) => {
 return (
     <div>
-        CheckBox
+        <label>
+            {label}
+        </label>
+        <input type="checkbox">
+        </input>
     </div>
 )
 }

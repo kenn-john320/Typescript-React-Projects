@@ -20,7 +20,7 @@ icon
                 <label>
                     {label}
                 </label>
-            <input>
+            <input type={"number"}>
 
             </input>
             </div>
