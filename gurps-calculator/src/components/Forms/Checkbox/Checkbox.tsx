@@ -2,15 +2,20 @@ import React from "react";
 
 interface IProps {
 label: string
-value: boolean
+value: number
+checked?: boolean
 icon?: boolean
 }
 
 const Checkbox: React.FC<IProps> = ({
     label
-
+    
 }
 ) => {
+    const onClick = (func: () => void): void => {
+
+        }
+
 return (
     <div>
         <label>

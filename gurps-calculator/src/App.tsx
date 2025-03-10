@@ -7,7 +7,6 @@ import GurpsCalculator from './components/GurpsCalculator';
 function App() {
     return (
     <GurpsCalculator
-        label={"Testing"} value={6}
 />
 
 
